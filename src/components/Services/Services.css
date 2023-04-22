@@ -1,24 +1,31 @@
+@font-face {
+  font-family: 'Playlist Script';
+  src: url('../../fonts/Playlist\ Script.otf') format('opentype');
+}
 .services {
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 30rem;
   margin-bottom: 8rem;
-  margin-top: 9rem;
+  margin-top: 1rem;
   margin-bottom: 13rem;
   padding-top: 3rem;
 }
+
 /* left side */
 .awesome {
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative;  */
   /* gap: 20px; */
 }
 
 .awesome > :nth-child(1) {
   color: var(--black);
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Playlist Script', cursive;
+    text-shadow: 1px 1px 0px #FFA500;
 }
 .awesome > :nth-child(2) {
   color: var(--orange);
@@ -26,7 +33,7 @@
   font-weight: bold;
 }
 .s-button {
-  width: 8rem;
+  width: 10rem;
   height: 2rem;
   margin-top: 1rem;
 }

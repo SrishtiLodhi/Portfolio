@@ -31,12 +31,12 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id="contact">
+      <h3>Looking for a website that captures attention and engages your audience? Need interactive content to connect with your visitors? You're in the right place! Let's create a website that stands out and connect with your audience. Say goodbye to ordinary websites and hello to an extraordinary online presence!</h3>
       {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Contact Me Here</span>
-          <span>Let's Chat</span>
+          <span style={{color: darkMode?'white': ''}}>Contact Me Here To Get Started</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}

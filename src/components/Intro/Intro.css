@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Merriweather:ital,wght@1,300&display=swap');
+
 
 .Intro {
   display: flex;
@@ -21,11 +21,11 @@
 }
 .i-name > :nth-child(1) {
   color: var(--black);
-  font-weight: bold;
-  font-size: 1.8rem;
   margin-bottom: 10px;
-  font-family: 'Cormorant SC', serif;
-  font-family: 'Merriweather', serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Playlist Script', cursive;
+  text-shadow: 1px 1px 0px #FFA500;
 }
 .i-name > :nth-child(2) {
   color: var(--orange);
@@ -39,13 +39,16 @@
   margin-top: 10px;
 }
 .i-button {
-  width: 6rem;
+  width: 8rem;
   height: 2rem;
 }
 .i-icons {
-  margin-top: 2rem;
+  margin-top: 0rem;
   display: flex;
   gap: 0rem;
+  position: absolute;
+  top: 357px;
+  right: 300px;
 }
 .i-icons > * {
   transform: scale(0.5);

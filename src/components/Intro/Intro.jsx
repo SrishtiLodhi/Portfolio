@@ -3,7 +3,6 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import girl from "../../img/girl.png";
-import thumbup from "../../img/thumbup.png";
 import LinkedIn from "../../img/linkedin.png";
 import Github from "../../img/github.png";
 import { themeContext } from "../../Context";
@@ -35,9 +34,12 @@ const Intro = () => {
           <button className="button i-button">Let's work</button>
         </Link>
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          {/* <img src={Twitter} alt="" /> */}
+          <a href="https://github.com/SrishtiLodhi" target="_blank"  rel="noopener noreferrer">
+          <img src={Github} alt="Github" />
+          </a>
+          <a href="https://www.linkedin.com/in/srishti-lodhi-b488b6222" target="_blank" rel="noopener noreferrer">
+         <img src={LinkedIn} alt="LinkedIn" />
+         </a>
         </div>
       </div>
 

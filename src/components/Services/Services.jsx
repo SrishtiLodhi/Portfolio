@@ -20,8 +20,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Work With</span>
-        <span>Srishti</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Work With Srishti</span>
+        {/* <span>Srishti</span> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
