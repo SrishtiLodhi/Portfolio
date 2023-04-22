@@ -19,6 +19,7 @@
   flex-direction: column;
   gap: 0.25rem;
 }
+
 .i-name > :nth-child(1) {
   color: var(--black);
   margin-bottom: 10px;

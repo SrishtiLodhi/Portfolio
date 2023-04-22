@@ -17,6 +17,14 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+.n-logo{
+  height: 150px;
+  margin: 10px;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
 .n-right {
   flex: 1;
   display: flex;
